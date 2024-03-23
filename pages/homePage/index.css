@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@400;600&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+.container {
+  background-image: url("../../asassets/images/modern-living-room-interior-with-sofa-green-plants-lamp-table-dark-wall-background 1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  padding: 40px 30px 0px 20px;
+  background-attachment: fixed;
+}
+.container nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container nav ul li a {
+  margin-right: 40px;
+  color: #fff;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container nav ul li a:hover {
+  background: var(--gradient2, linear-gradient(90deg, #2af598 0%, #009efd 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container main {
+  margin-top: 91px;
+}
+.container main h1 {
+  color: #fff;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 82px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container main p {
+  margin: auto;
+  margin-bottom: 66px;
+  margin-top: 10px;
+  width: 583px;
+  color: #fff;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+}
+.container form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px;
+  width: 463px;
+  height: 71px;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  margin: auto;
+}
+.container form input {
+  outline: none;
+  background: none;
+  border: none;
+}
+.container form input::-moz-placeholder {
+  color: #fff;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container form input::placeholder {
+  color: #fff;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.shop-container {
+  padding: 80px;
+}
+.shop-container ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shop-container ul li {
+  margin-right: 100px;
+}
+.shop-container ul li h1 {
+  color: var(--font, #081323);
+  font-family: "Work Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.shop-container ul li p {
+  color: var(--Gray-3, #828282);
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.shop-container ul li svg {
+  width: 84px;
+  height: 84px;
+}
+
+.best-seller-container {
+  padding: 0 120px 0px 123px;
+  display: flex;
+  align-items: center;
+}
+.best-seller-container .div-2 h1 {
+  color: var(--font, #081323);
+  font-family: "Work Sans";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.best-seller-container .div-2 p {
+  color: var(--Gray-2, #4f4f4f);
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.best-seller-container ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.best-seller-container ul li {
+  width: 33%;
+}
+.best-seller-container ul li img {
+  width: 100%;
+}
+
+.img-container {
+  min-height: 100vh;
+  padding: 182px 40px 182px 40px;
+}
+.img-container nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.img-container nav h2 {
+  width: 751px;
+  color: var(--font, #081323);
+  font-family: "Work Sans";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.img-container nav p {
+  margin-top: 27px;
+  color: var(--Gray-2, #4F4F4F);
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.img-container ul {
+  display: flex;
+}
+.img-container ul li img {
+  margin-top: 32px;
+  width: 735px;
+  height: 549px;
+}
+.img-container ul li .img-1 {
+  margin-left: 32px;
+  width: 717px;
+  height: 995px;
+}
+
+.plant-container {
+  min-height: 100vh;
+  padding: 182px 40px 203px 40px;
+}
+.plant-container nav {
+  display: flex;
+  flex-direction: column;
+}
+.plant-container nav h1 {
+  width: 452px;
+  color: var(--font, #081323);
+  font-family: "Work Sans";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.plant-container nav p {
+  margin-bottom: 82px;
+  margin-top: 15px;
+  color: var(--Gray-2, #4F4F4F);
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.plant-container ul li {
+  margin-top: 32px;
+  display: flex;
+}
+.plant-container ul li div {
+  display: flex;
+  flex-direction: column;
+}
+.plant-container ul li svg {
+  margin-right: 5px;
+  width: 68px;
+  height: 68px;
+}
+.plant-container ul li h2 {
+  color: #000;
+  font-family: "Work Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.plant-container ul li p {
+  width: 493px;
+  color: var(--Gray-2, #4F4F4F);
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.plant-container .right-container img {
+  width: 657px;
+  height: 618px;
+}
+
+.black-container {
+  display: flex;
+  padding: 120px 97px;
+  min-height: 100vh;
+  background: linear-gradient(94deg, #566270 0.51%, #283444 100%);
+}
+.black-container form h1 {
+  color: #FFF;
+  font-family: "Work Sans";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.black-container form label input {
+  margin-right: 134px;
+  margin-top: 25px;
+  width: 463px;
+  height: 71px;
+  border-radius: 50px;
+  border: 1px solid #FFF;
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.black-container form label input::-moz-placeholder {
+  padding: 5px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.black-container form label input::placeholder {
+  padding: 5px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.black-container form button {
+  width: 145px;
+  height: 47px;
+  border-radius: 50px;
+  background: var(--gradient2, linear-gradient(90deg, #2AF598 0%, #009EFD 100%));
+}
+.black-container ul {
+  display: flex;
+}
+.black-container ul li {
+  margin-right: 87px;
+}
+.black-container ul li h2 {
+  color: #FFF;
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 33.6px */
+}
+.black-container ul li p {
+  margin-top: 15px;
+  color: #FFF;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+}
+.black-container hr {
+  margin-top: 20px;
+  width: 1513.008px;
+  height: 1px;
+  background: #FFF;
+}/*# sourceMappingURL=index.css.map */
